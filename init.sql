@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS containerdemo;
+CREATE DATABASE IF NOT EXISTS database1;
 
-USE containerdemo;
+USE database1;
 
 CREATE TABLE tasks(
 id INT AUTO_INCREMENT PRIMARY KEY,

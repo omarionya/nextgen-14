@@ -2,15 +2,15 @@ version: '3.8'
 
 services:
 
-  web:
+  web1:
     build: .
     ports:
-      - "8081:80"
+      - "9091:80"
 
     depends_on:
-      - db
+      - db1
 
-  db:
+  db1:
     image: mysql:8
 
     restart: always

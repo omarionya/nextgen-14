@@ -1,8 +1,8 @@
 <?php
-$host = "db";     // Docker service name
+$host = "db1";     // Docker service name
 $user = "root";
 $password = "password123";
-$database = "containerdemo";
+$database = "database1";
 
 $conn = new mysqli($host,$user,$password,$database);
 
