@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS containerdemo;
+
+USE containerdemo;
+
+CREATE TABLE tasks(
+id INT AUTO_INCREMENT PRIMARY KEY,
+task VARCHAR(255)
+);
